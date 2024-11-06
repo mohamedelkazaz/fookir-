@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.float_left{
+
+    float: left;
+}
+.clear_fix{
+    clear:both
+}
+img{
+    width: 100%;
+    
+}
+.sec1{
+    background-image: url(./صور-أفضل-الأماكن-السياحية-في-الإسكندرية-1-1024x685.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+
+}
+.sec-cover {
+    background-color: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    left: 0;
+    
+}
+.sec-cover p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+}
+.sec-cover h1 {
+    color: red;
+    text-align: center;
+    font-size: 80px;
+}
+.ani{
+    text-align: center;
+}
+.ani::after{
+    color: white;
+    content: '|';
+    animation: 4s shik
+    infinite alternate ; 
+}
+@keyframes shik {
+    0%{
+     content: ' |';
+    }
+    10%{
+        content: ' D|';
+    }
+    20%{
+        content: ' De|';
+    }
+    30%{
+        content: ' Des|';
+    }
+    40%{
+        content: ' Desi|';
+    }
+    50%{
+        content: ' Desig|';
+    }
+    60%{
+        content: ' Design|';
+    }
+    70%{
+        content: ' Designe|';
+    }
+    80%{
+        content: ' Designer|';
+    }
+    
+}
+
+.brand{
+    position: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    size: 30px;
+    padding: 0px 15px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    width: 100%;
+
+    
+}
+.navbar a {
+    text-transform: capitalize;
+    width: fit-content;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgba(0, 0, 0, 0.522);
+}
+img {
+    width: 100%;
+    overflow: hidden;
+   
+}
+.jki{
+    display: flex;
+    width: 45%;
+}
+.jki h2{
+    font-size:80px ;
+    
+}
+
+.img2{
+    align-content: center;
+    margin: auto;
+    width: 25%;
+    height: 50%;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    border: solid;
+    box-shadow: gray -10px -10px;
+    display: flex;
+    
+}
+.img2 img{
+    justify-content: center;
+    width: 100%;
+    transition: all 2s;
+    
+}
+.overlay{
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.382);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: 2s all ease-in-out;
+}
+.overlay ul {
+    height: 100%;
+    list-style: none;
+    display: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay ul li{
+    color: #ddd;
+}
+
+.img2:hover .overlay{
+    top: 0;
+}
+.overlay ul li img{
+    width: 30px;
+
+}
+.sec2{
+    width: 100%;
+    
+    height: 100vh;
+    
+}
+.part1 img{
+    width: 100;
+}
+.page3-div {
+    
+    display: flex;
+    height: 400px;
+
+}
+
+.sec3 h2 {
+    font-size: 34px;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+    font-weight: bold;
+    color: #1f1e1ecb;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.sec3 {
+    margin: 40px 0px;
+    
+    color: #686161;
+    line-height: 20px;
+    background-color: #dbd8d8d0;
+    padding: 110px 30px 0px 30px;
+}
+
+.part1 {
+    text-align: center;
+    padding: 60px 10px 0px 10px;
+    transition: ease-in-out 0.5s;
+    width: 25%;
+    height: 300px;
+   
+}
+
+.sec3 h2::before {
+    content: " ";
+    width: 180px;
+    height: 45px;
+    border-bottom: red 1px solid;
+    position: absolute;
+    right: 44%;
+}
+.sec3 h2::after {
+    content: " ";
+    width: 90px;
+    height: 40px;
+    border-bottom: red 1px solid ;
+    padding:7px 0px 5px 0px ;
+    position: absolute;
+    right: 47%;
+}
+
+.part1:hover {
+    text-align: center;
+    padding: 60px 10px 0px 10px;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 300px;
+
+}
+
+.part1 img {
+    width: 40px;
+}
+
+.last::before {
+    content: " ";
+    width: 180px;
+    height: 45px;
+    border-bottom: red 2px solid;
+    position: absolute;
+    right: 44%;
+}
+.last::after {
+    content: " ";
+    width: 90px;
+    height: 40px;
+    border-bottom: red 2px solid ;
+    padding:7px 0px 5px 0px ;
+    position: absolute;
+    right: 47%;
+}
+.last{
+    font-size: 34px;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+    font-weight: bold;
+    color: #1f1e1ecb;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.input-sec{
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    background-color:white; 
+    padding: 2%;
+    
+}
+
+#name-txt ,#email-txt{
+width: 300px;
+height: 30px;
+height: 40px;
+margin-bottom: 20px;
+}
+
+#subjet-txt{
+    width: 610px;
+    height: 30px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#areatxt{
+    width: 610px;
+    height: 60px; 
+    height: 70px; 
+    margin-bottom: 20px;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    background-color: tomato;
+    color: #ddd;
+}
